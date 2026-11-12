@@ -1,13 +1,13 @@
-Cloud Programming – Phase 2
+# Cloud Programming – Phase 2
 
 This project hosts a simple “Hello world!” page on AWS. A Lambda function returns the HTML page, and CloudFront delivers and caches it. Terraform creates the AWS resources.
 
-Project files
+## Project files
 - main.tf defines the AWS resources.
 - lambda/handler.py returns the HTML page.
 - lambda/index.html contains the page content.
 
-Deploy the website
+## Deploy the website
 You need Terraform installed and AWS credentials configured. Run these commands from the project folder:
 
 ```sh
